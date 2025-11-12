@@ -1,0 +1,7 @@
+name = input ("What is your name?")
+f_name = input ("What is your family name?")
+address = input ("What is your street address?")
+p_code = input ("What is your city and postal code?")
+print (name + " " + f_name)
+print (address)
+print (p_code)

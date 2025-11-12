@@ -1,0 +1,9 @@
+number = int(input("Please type in a positive integer number: "))
+v1 = 1
+while v1 <= number:
+    v2 = 1
+    while v2 <= number:
+        result = v1 * v2
+        print(f"{v1} x {v2} = {result}")
+        v2 += 1
+    v1 += 1

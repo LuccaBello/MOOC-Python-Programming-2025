@@ -1,0 +1,12 @@
+def line(length, word):
+    if word == "":
+        print("*" * length)
+    else:
+        char = word[0]
+        print(char * length)
+    
+#  You can test your function by calling it within the following block
+if __name__ == "__main__":
+    line(7, "%")
+    line(10, "LOL")
+    line(3, "")
